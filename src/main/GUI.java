@@ -257,7 +257,7 @@ public class GUI extends JFrame {
 		JLabel lblMonthlyInterest = new JLabel("Monthly Interest");
 		panel.add(lblMonthlyInterest, "4, 6, center, center");
 
-		interestSpinner = new JSpinner(new SpinnerNumberModel(0, 0, 100,1));
+		interestSpinner = new JSpinner(new SpinnerNumberModel(1, 1, 100,1));
 		interestSpinner.setToolTipText("0");
 		interestSpinner.addChangeListener(new ChangeListener() {
 
