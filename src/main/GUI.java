@@ -379,9 +379,6 @@ public class GUI extends JFrame {
 		});
 		textField_2.setColumns(10);
 
-		JButton btnUpdate = new JButton("Update");
-		panel.add(btnUpdate, "8, 12, center, center");
-
 		JLabel lblHousingPaymnetOnly = new JLabel("Housing Paymnet Only");
 		panel.add(lblHousingPaymnetOnly, "4, 14, center, center");
 
